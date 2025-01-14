@@ -51,7 +51,7 @@ export const ContactSection = () => {
               className="bg-white/10 border-white/20 text-white placeholder:text-white/60"
               rows={4}
             />
-            <Button type="submit" className="w-full bg-gaucho-secondary hover:bg-gaucho-primary">
+            <Button type="submit" className="w-full bg-gaucho-primary hover:bg-gaucho-secondary text-white">
               Enviar Mensaje
             </Button>
           </form>

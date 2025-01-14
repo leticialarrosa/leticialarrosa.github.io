@@ -20,11 +20,11 @@ export default {
     extend: {
       colors: {
         gaucho: {
-          primary: "#8B4513",
-          secondary: "#D2691E",
-          accent: "#DEB887",
-          light: "#F5DEB3",
-          dark: "#654321",
+          primary: "#33C3F0",    // Azul celeste uruguayo
+          secondary: "#0EA5E9",  // Azul más oscuro
+          accent: "#F0F9FF",     // Azul muy claro
+          light: "#FFFFFF",      // Blanco
+          dark: "#1E3A8A",       // Azul muy oscuro
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
