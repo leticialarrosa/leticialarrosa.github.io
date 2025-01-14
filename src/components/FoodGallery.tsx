@@ -1,19 +1,19 @@
 export const FoodGallery = () => {
   const dishes = [
     {
-      name: "Chivito Completo",
-      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3",
-      description: "Nuestro plato estrella",
-    },
-    {
-      name: "Dulce de Leche",
+      name: "Alfajores Uruguayos",
       image: "https://images.unsplash.com/photo-1551024601-bec78aea704b?ixlib=rb-4.0.3",
-      description: "Postre tradicional",
+      description: "Deliciosos alfajores rellenos de dulce de leche",
     },
     {
-      name: "Asado",
+      name: "Fainá",
+      image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3",
+      description: "Tradicional fainá hecho con harina de garbanzos",
+    },
+    {
+      name: "Pascualina",
       image: "https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-4.0.3",
-      description: "El mejor asado uruguayo",
+      description: "Tarta de espinacas y huevo, receta tradicional",
     },
   ];
 
