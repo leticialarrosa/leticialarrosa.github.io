@@ -42,8 +42,7 @@ const ServicesSection = () => {
             <span className="text-gradient">Advisory</span> Services
           </h2>
           <p className="text-lg text-muted-foreground">
-            I offer strategic and technical advisory for companies looking to 
-            transform their technology operations and reach the next level.
+            At YareyTech, we deliver products, solutions, and strategic and technical advisory services that help companies transform their technology operations and reach the next level.
           </p>
         </div>
 
@@ -70,8 +69,7 @@ const ServicesSection = () => {
                   {service.description}
                 </p>
                 
-                <a
-                  href="#contact"
+                <a href="#contact"
                   className="inline-flex items-center gap-2 text-primary text-sm font-medium opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0"
                 >
                   Learn More

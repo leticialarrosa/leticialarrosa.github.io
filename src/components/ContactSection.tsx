@@ -36,7 +36,7 @@ const ContactSection = () => {
             <p className="text-lg text-muted-foreground mb-12 leading-relaxed">
               Looking for strategic advisory for your technology company? 
               Want to explore collaboration opportunities? 
-              I'd love to hear from you.
+              We would love to hear from you.
             </p>
 
             <div className="space-y-6">
@@ -58,7 +58,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="text-foreground">Uruguay / Spain</p>
+                  <p className="text-foreground">USA / Uruguay / Spain</p>
                 </div>
               </div>
 
@@ -77,78 +77,6 @@ const ContactSection = () => {
           </div>
 
           {/* Right Column - Form */}
-          <div className="bg-card-gradient p-8 md:p-10 rounded-2xl border border-border/50">
-            <h3 className="font-display text-2xl font-semibold mb-6 text-foreground">
-              Send me a message
-            </h3>
-            
-            <form onSubmit={handleSubmit} className="space-y-6">
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <label className="block text-sm text-muted-foreground mb-2">
-                    Full Name
-                  </label>
-                  <input
-                    type="text"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3 rounded-lg bg-secondary border border-border/50 text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary/50 transition-colors"
-                    placeholder="Your name"
-                  />
-                </div>
-                <div>
-                  <label className="block text-sm text-muted-foreground mb-2">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    value={formData.email}
-                    onChange={handleChange}
-                    required
-                    className="w-full px-4 py-3 rounded-lg bg-secondary border border-border/50 text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary/50 transition-colors"
-                    placeholder="you@email.com"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <label className="block text-sm text-muted-foreground mb-2">
-                  Company
-                </label>
-                <input
-                  type="text"
-                  name="company"
-                  value={formData.company}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 rounded-lg bg-secondary border border-border/50 text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary/50 transition-colors"
-                  placeholder="Your company name"
-                />
-              </div>
-
-              <div>
-                <label className="block text-sm text-muted-foreground mb-2">
-                  Message
-                </label>
-                <textarea
-                  name="message"
-                  value={formData.message}
-                  onChange={handleChange}
-                  required
-                  rows={4}
-                  className="w-full px-4 py-3 rounded-lg bg-secondary border border-border/50 text-foreground placeholder:text-muted-foreground focus:outline-none focus:border-primary/50 transition-colors resize-none"
-                  placeholder="How can I help you?"
-                />
-              </div>
-
-              <Button type="submit" variant="hero" size="lg" className="w-full">
-                Send Message
-                <ArrowRight className="ml-2" />
-              </Button>
-            </form>
-          </div>
         </div>
       </div>
     </section>
